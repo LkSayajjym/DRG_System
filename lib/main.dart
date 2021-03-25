@@ -69,6 +69,9 @@ class _MyHomePageState extends State<MyHomePage> {
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
+          SizedBox(
+            height: 100,
+          ),
           Row(
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.center,
@@ -108,6 +111,9 @@ class _MyHomePageState extends State<MyHomePage> {
                   )),
             ],
           ),
+          SizedBox(
+            height: 80,
+          ),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.end,
@@ -115,7 +121,7 @@ class _MyHomePageState extends State<MyHomePage> {
             children: [
               Container(
                   width: 400,
-                  height: 40,
+                  height: 50,
                   child: ElevatedButton(
                     onPressed: null,
                     onLongPress: null,
@@ -126,7 +132,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             MaterialStateProperty.all<RoundedRectangleBorder>(
                                 RoundedRectangleBorder(
                                     borderRadius:
-                                        BorderRadius.circular(18.0)))),
+                                        BorderRadius.circular(20.0)))),
                     child: Text(
                       "Login",
                       style: TextStyle(
