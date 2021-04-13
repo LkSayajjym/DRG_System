@@ -32,7 +32,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Color.fromARGB(255, 0, 48, 84),
+        backgroundColor: Colors.grey[350],
         body: Container(
           width: double.infinity,
           height: double.infinity,
