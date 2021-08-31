@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:drg_system/viewer/U_frmLogin.dart';
+//import 'package:drg_system/viewer/U_frmLogin.dart';
+import 'package:drg_system/viewer/U_frmPrincipal.dart';
 
 void main() {
   runApp(MyApp());
@@ -41,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Center(
-                child: Login(),
+                child: frmPrincipal(),
               )
             ],
           ),
